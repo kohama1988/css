@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>優先順位</title>
+    <style>
+        /* 
+        1. インライン＞内部参照＞外部参照
+        2. idセレクタ＞classセレクタ・疑似クラス＞要素セレクタ
+        */
+        p{
+            color: #f00;
+        }
+        #h2-id{
+            color: #3cc;
+        }
+        .h2-class{
+            color: #c3c;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTMLでマークアップしてみよう</h1>
+    <h2 id="h2-id" class="h2-class">美しいHTMLを書くためにすべきこと</h2>
+    <p style="color: #0f0;">あｌｓｄｊｆｗｊぇｋｒｊｌｋｊｃｌｋｖｊｘｌｗｋじぇｒ</p>
+</body>
+</html>

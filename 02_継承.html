@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>継承</title>
+    <style>
+        /* 
+        基本は継承されるプロパティ
+         1. color
+         2. text-align
+         3. line-height
+         4. font-family
+         5. font-size
+         6. font-weight
+         7. list-style-type
+        */
+        body{
+            border-top: 5px solid #000;
+        }
+        h1{
+            border-top: inherit; /*強制的に継承させる*/
+        }
+    </style>
+</head>
+<body>
+    <h1>見出しの上にも5pxの黒い実線</h1>
+    <p>borderプロパティは通常継承されない</p>
+</body>
+</html>
