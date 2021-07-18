@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+    <style>
+        /* body{
+            background-color: #fc0;
+            background-image: url('static/pic.png');
+            background-repeat: no-repeat;
+            background-position: right top;
+        } */
+        p{
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+
+        .keyword{
+            background-position: right top;
+            background-image: url('static/pic.png');
+            background-attachment: fixed; /* fixedスクロールしてもイメージが動かない */
+        }
+        .percent{
+            background-position: 0% 50%;
+        }
+        .pixel{
+            background-position: 20px 40px;
+        }
+        /* background-position：％か数字だけ指定した場合、
+        水平方向だけを指示したこととなり、垂直方向は50％の位置に配置する */
+        /* 優先順位：後で設定したほうが優先 */
+    </style>
+</head>
+<body>
+    <p class="keyword">右上</p>
+    <p class="percent">左端、垂直方向中央</p>
+    <p class="pixel">左から20px、上から40px</p>
+</body>
+</html>
