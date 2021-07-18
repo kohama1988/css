@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+    <style>
+        /* img{
+            width: 200px;
+        }
+        p{
+            float: left;
+            padding-right: 1px;
+        }
+        .middle{
+            vertical-align: middle;
+        }
+        .top{
+            vertical-align: top;
+        }
+        .bottom{
+            vertical-align: bottom;
+        } */
+
+
+        p{
+            display: table;
+        }
+        img{
+            margin: 10px;
+            width: 250px;
+            border: 5px solid #0a0; /* border-width, border-style, border-color*/
+            box-shadow: 3px 3px 20px #f0f; /*水平方向距離、垂直方向距離、ぼかしの大きさ、色*/
+        }
+        span{
+            vertical-align: middle;
+            display: table-cell;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p><img src="static/pic.png" alt="pic">指定なし</p>
+    <p><img src="static/pic.png" alt="pic" class="middle">middle</p>
+    <p><img src="static/pic.png" alt="pic" class="top">top</p>
+    <p><img src="static/pic.png" alt="pic" class="bottom">bottom</p> -->
+
+    <p><img src="static/pic.png" alt="pic" class="middle"><span>githubの写真です。
+    毎日アップロードするように心がけています。まず、第一歩はHTMLとCSSをしっかり勉強するのだ！
+    今度は、JavascriptとjQueryを勉強するつもりだ！</span></p>
+
+</body>
+</html>
