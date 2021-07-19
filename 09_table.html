@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+            border: 2px solid #f00;
+            border-collapse: collapse; /* セルとセルの間に間隔をなくす */
+        }
+        th,td{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #00f;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+        }
+        tr:nth-child(odd){
+            background-color: #cf0;
+        }
+        tr:nth-child(even){
+            background-color: #fc0;
+        }
+        .kadomaru{
+            margin: 10px;
+            padding-left: 15px;
+            border: 2px solid #3fc;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>見出しセル1</th>
+            <th>見出しセル2</th>
+        </tr>
+        <tr>
+            <td>通常セル1</td>
+            <td>通常セル2</td>
+        </tr>
+        <tr>
+            <td>通常セル1</td>
+            <td>通常セル2</td>
+        </tr>
+        <tr>
+            <td>通常セル1</td>
+            <td>通常セル2</td>
+        </tr>
+    </table>
+    <div class="kadomaru">
+        <p>角丸のボックスです。</p>
+    </div>
+</body>
+</html>

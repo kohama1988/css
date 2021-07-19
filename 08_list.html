@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+    <style>
+        /* 指定できる種類
+        ul:
+          1, none
+          2, disc
+          3, circle
+          4, square
+        
+        ol:
+          1, none
+          2, decimal
+          3, decimal-leading-zero
+          4, upper-alpha
+          5, lower-alpha
+          6, upper-latin
+          7, lower-latin
+          8, upper-roman
+          9, lower-roman
+        */
+        /* ul{
+            list-style-type: square;
+        }
+        ol{
+            list-style-type: upper-roman;
+        } */
+
+        ul{
+            list-style-type: none;
+        }
+        /* li{
+            background-image: url('static/pic.png');
+            background-repeat: no-repeat;
+            background-position: 5px 4px;
+            padding-left: 505px;
+        } */
+        /* 疑似要素
+        　1, before
+          2, after
+          3, first-letter
+        */
+        li:before{
+            content: "★中心";
+        }
+        li:first-letter{
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>くだものいろいろ</h1>
+    <h2>よく見かけるくだもの</h2>
+    <ul>
+        <li>みかん</li>
+        <li>りんご</li>
+        <li>バナナ</li>
+    </ul>
+    <h2>くだものの食べ方</h2>
+    <ol>
+        <li>カットして生で</li>
+        <li>お菓子に入れる</li>
+        <li>冷凍してシャーベットにする</li>
+    </ol> -->
+    <ul>
+        <li>項目1</li>
+        <li>項目2</li>
+        <li>項目3</li>
+    </ul>
+</body>
+</html>
