@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float property</title>
+    <style>
+        /* .leftblock {
+            background-color: #fcc7c7;
+            width: 40%;
+            float: left;
+        }
+        .rightblock {
+            background-color: #b7ccf4;
+            width: 20%;
+            float: right;
+        }
+        .box01 {
+            float: left;
+            background-color: #f00;
+            padding: 50px;
+            width: 50%;
+        }
+        p {
+            clear: left; /* clear: left, right, both 
+        } */
+        .floatbox01 {
+            background-color: #fc0;
+        }
+        .floatbox02 {
+            background-color: #0cf;
+        }
+        .floatbox01, .floatbox02 {
+            float: left;
+            padding: 10px;
+            width: 40%;
+            box-sizing: border-box;
+        }
+        .nofloatbox {
+            background-color: #cf0;
+            clear: left;
+            margin-top: 100px; /* clearとmargin同時に指示すると、clearの方は優先 */
+        }
+        .parentbox {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="leftblock">
+        <p>左側のボックス</p>
+    </div>
+    <div class="rightblock">
+        <p>右側のボックス</p>
+    </div>
+
+    <div class="box01">
+        box01
+    </div>
+    <p>ボックスのあとにp要素を入れてみます。</p> -->
+    <div class="parentbox">
+        <div class="floatbox01">
+            <p>floatを指定したボックス1</p>
+        </div>
+        <div class="floatbox02">
+            <p>floatを指定したボックス2</p>
+        </div>
+    </div>
+    <div class="nofloatbox">
+        <p>floatをしてしていないボックス</p>
+    </div>
+</body>
+</html>
